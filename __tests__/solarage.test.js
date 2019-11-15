@@ -1,4 +1,4 @@
-import { mercuryAge, venusAge, marsAge, jupiterAge, saturnAge, uranusAge } from './../src/solarage.js';
+import { mercuryAge, venusAge, marsAge, jupiterAge, saturnAge, uranusAge, neptuneAge } from './../src/solarage.js';
 
 
 describe('Solar Age planet testing', () => {
@@ -20,12 +20,16 @@ describe('Solar Age planet testing', () => {
     expect(userJupiterAge).toEqual(3.4);
   });
   test('should correctly return the inputted Earth age in Saturn Age', () => {
-    var userSaturnAge = saturnAge(40);
+    var userSaturnAge = saturnAge(10);
     expect(userSaturnAge).toEqual(1.4);
   });
   test('should correctly return the inputted Earth age in Uranus Age', () => {
-    var userUranusAge = uranusAge(30);
-    expect(userUranusAge).toEqual(.5);
+    var userUranusAge = uranusAge(40);
+    expect(userUranusAge).toEqual(.48);
+  });
+  test('should correctly return the inputted Earth age in Neptune Age', () => {
+    var userNeptuneAge = neptuneAge(10);
+    expect(userNeptuneAge).toEqual(.24);
   });
 
 
