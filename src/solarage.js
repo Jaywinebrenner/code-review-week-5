@@ -15,7 +15,10 @@ export function marsAge(earthAge){
   return Math.round(preRound * 10) / 10;
 }
 
-
+export function jupiterAge(earthAge){
+  let preRound = earthAge / 11.86 ;
+  return Math.round(preRound * 10) / 10;
+}
 
 
 
