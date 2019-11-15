@@ -30,17 +30,12 @@ A web application that will calculate how old one is on various planets in our s
 |Should Return age in Neptune (165 Years = 1 EY)|40 Human Years|.2 Neptune years old|
 |---|---|---|
 |Should determine how many Mercury Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 225 Mercury years left to live |
-|Should determine how many Venus Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 87 Venus years left to live |
-|Should determine how many Mars Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 28.7 Venus years left to live |
-|Should determine how many Jupiter Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 4.5 Jupiter years left to live |
-|Should determine how many Saturn Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 1.86 Saturn years left to live |
-|Should determine how many Uranus Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | .64 Uranus years left to live |
-|Should determine how many Neptune Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | .32 Neptune years left to live |
-
-
-
-
-
+|Should determine how many Venus Years one has to live--(Life expectancy-Earth Years/.62-- |Expectancy = 74 Earth Age = 20 Life | 87 Venus years left to live |
+|Should determine how many Mars Years one has to live--(Life expectancy-Earth Years/1.88-- |Expectancy = 74 Earth Age = 20 Life | 28.7 Venus years left to live |
+|Should determine how many Jupiter Years one has to live--(Life expectancy-Earth Years/11.86-- |Expectancy = 74 Earth Age = 20 Life | 4.5 Jupiter years left to live |
+|Should determine how many Saturn Years one has to live--(Life expectancy-Earth Years/29-- |Expectancy = 74 Earth Age = 20 Life | 1.86 Saturn years left to live |
+|Should determine how many Uranus Years one has to live--(Life expectancy-Earth Years/84-- |Expectancy = 74 Earth Age = 20 Life | .64 Uranus years left to live |
+|Should determine how many Neptune Years one has to live--(Life expectancy-Earth Years/165-- |Expectancy = 74 Earth Age = 20 Life | .32 Neptune years left to live |
 |---|---|---|
 
 ### Technologies Used
