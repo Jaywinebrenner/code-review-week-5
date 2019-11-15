@@ -28,32 +28,14 @@ The description goes here.
 |Should Return age in Saturn Years (29 years = 1 EY)|40 Human Years|1.3 Saturn Years old|
 |Should Return age in Uranus Years (84 Years = 1 EY)|40 Human Years|.47 Uranus Years old|
 |Should Return age in Neptune (165 Years = 1 EY)|40 Human Years|.24 Neptune years old|
-|Should determine how many Mercury Years one has to live--(80-EY)/.24-- |20 human Years|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|---|---|---|
+|Should determine how many Mercury Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 225 Mercury years left to live |
+|Should determine how many Venus Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 87 Venus years left to live |
+|Should determine how many Mars Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 28.7 Venus years left to live |
+|Should determine how many Jupiter Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 4.5 Jupiter years left to live |
+|Should determine how many Saturn Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 1.86 Saturn years left to live |
+|Should determine how many Uranus Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | .64 Uranus years left to live |
+|Should determine how many Neptune Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | .32 Neptune years left to live |
 
 
 
