@@ -1,7 +1,8 @@
 
 
 export function mercuryAge(earthAge){
-
+  let preRound = earthAge / .24;
+  return Math.round(preRound * 10) / 10;
 }
 
 

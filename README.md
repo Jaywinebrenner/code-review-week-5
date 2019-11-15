@@ -21,7 +21,7 @@ The description goes here.
 
 |Expectation|Input|Output|
 |---|---|---|
-|Should Return age in Mercury Years(.24 years = 1 EY)|40 Human Years|166.6 Mercury Years|
+|Should Return age in Mercury Years(.24 years = 1 EY)|40 Human Years|166.7 Mercury Years|
 |Should Return age in Venus Years(.62 years = 1 EY)|40 Human Years|64.5 Venus Years old|
 |Should Return age in Mars Years(1.88 years = 1 EY)|40 Human Years|21.2 Mars Years old|
 |Should Return age in Jupiter Years(11.86 years = 1 EY)|40 Human Years|3.4 Jupiter Years old|

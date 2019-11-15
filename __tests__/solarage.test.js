@@ -1,15 +1,14 @@
-import { Triangle } from './../src/triangle.js';
+import { mercuryAge } from './../src/solarage.js';
 
 
-describe('Triangle', () => {
-
+describe('Mercury Age', () => {
   test('should correctly return the inputted Earth age in Mercury Age', () => {
-    var triangle = new Triangle(2,4,5);
-    expect(triangle.side1).toEqual(2);
-    expect(triangle.side2).toEqual(4);
-    expect(triangle.side3).toEqual(5);
+    var userMercuryAge = mercuryAge(30);
+    expect(userMercuryAge).toEqual(166.7);
   });
 });
+
+
 
 
 
