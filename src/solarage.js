@@ -56,5 +56,9 @@ export class PlanetExpectancy {
     let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / 1.88;
     return Math.round(earthYearsLeft * 10) / 10;
   }
+  calculateExpectancyJupiter(){
+    let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / 11.86;
+    return Math.round(earthYearsLeft * 10) / 10;
+  }
 
 }

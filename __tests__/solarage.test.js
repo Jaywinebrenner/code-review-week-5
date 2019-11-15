@@ -48,5 +48,9 @@ describe('Determines how many solar years one has left to live', () => {
     var marsYearsLeft = new PlanetExpectancy(74, 20);
     expect(marsYearsLeft.calculateExpectancyMars()).toEqual(28.7);
   });
+  test('should correctly return how many Jupiter years one has left to live', () => {
+    var jupiterYearsLeft = new PlanetExpectancy(74, 20);
+    expect(jupiterYearsLeft.calculateExpectancyJupiter()).toEqual(4.6);
+  });
 
 });
