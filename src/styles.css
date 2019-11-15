@@ -1,3 +1,19 @@
 body{
-  background-color: gray;
+  background: url("https://www.globallyrecruit.com/wp-content/uploads/2019/07/1070382715.jpg") no-repeat;
+    background-size: 100%;
+}
+
+
+#mercurydiv{
+  background: url("https://solarsystem.nasa.gov/system/stellar_items/image_files/2_feature_1600x900_mercury.jpg") no-repeat;
+    background-size: 100%;
+}
+h1{
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+}
+h2, p{
+  color: white;
+  text-align: center;
 }
