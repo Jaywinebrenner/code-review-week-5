@@ -40,4 +40,8 @@ describe('Determines how many solar years one has left to live', () => {
     var mercuryYearsLeft = new PlanetExpectancy(74, 20);
     expect(mercuryYearsLeft.calculateExpectancyMercury()).toEqual(225);
   });
+  test('should correctly return how many Venus years one has left to live', () => {
+    var venusYearsLeft = new PlanetExpectancy(74, 20);
+    expect(venusYearsLeft.calculateExpectancyVenus()).toEqual(87.1);
+  });
 });
