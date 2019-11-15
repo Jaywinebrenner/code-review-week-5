@@ -25,8 +25,8 @@ A web application that will calculate how old one is on various planets in our s
 |Should Return age in Venus Years(.62 years = 1 EY)|40 Human Years|64.5 Venus Years old|
 |Should Return age in Mars Years(1.88 years = 1 EY)|40 Human Years|21.3 Mars Years old|
 |Should Return age in Jupiter Years(11.86 years = 1 EY)|40 Human Years|3.4 Jupiter Years old|
-|Should Return age in Saturn Years (29 years = 1 EY)|40 Human Years|1.3 Saturn Years old|
-|Should Return age in Uranus Years (84 Years = 1 EY)|40 Human Years|.47 Uranus Years old|
+|Should Return age in Saturn Years (29 years = 1 EY)|40 Human Years|1.4 Saturn Years old|
+|Should Return age in Uranus Years (84 Years = 1 EY)|40 Human Years|.5 Uranus Years old|
 |Should Return age in Neptune (165 Years = 1 EY)|40 Human Years|.24 Neptune years old|
 |---|---|---|
 |Should determine how many Mercury Years one has to live--(Life expectancy-Earth Years/.24-- |Expectancy = 74 Earth Age = 20 Life | 225 Mercury years left to live |
