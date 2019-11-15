@@ -56,5 +56,9 @@ describe('Determines how many solar years one has left to live', () => {
     var saturnYearsLeft = new PlanetExpectancy(74, 20);
     expect(saturnYearsLeft.calculateExpectancySaturn()).toEqual(1.9);
   });
+  test('should correctly return how many Uranus years one has left to live', () => {
+    var uranusYearsLeft = new PlanetExpectancy(74, 20);
+    expect(uranusYearsLeft.calculateExpectancyUranus()).toEqual(.64);
+  });
 
 });

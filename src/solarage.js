@@ -64,5 +64,9 @@ export class PlanetExpectancy {
     let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / 29;
     return Math.round(earthYearsLeft * 10) / 10;
   }
+  calculateExpectancyUranus(){
+    let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / 84;
+    return Math.round(earthYearsLeft * 100) / 100;
+  }
 
 }
