@@ -52,4 +52,9 @@ export class PlanetExpectancy {
     let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / .62;
     return Math.round(earthYearsLeft * 10) / 10;
   }
+  calculateExpectancyMars(){
+    let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / 1.88;
+    return Math.round(earthYearsLeft * 10) / 10;
+  }
+
 }
