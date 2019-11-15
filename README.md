@@ -1,10 +1,10 @@
-# Title
+# Solar Age Calculator
 
 ## By **Jay Winebrenner**
 
 ### Description
 
-The description goes here.
+A web application that will calculate how old one is on various planets in our solar system.
 
 ### Setup/Installation Requirements
 
@@ -23,7 +23,7 @@ The description goes here.
 |---|---|---|
 |Should Return age in Mercury Years(.24 years = 1 EY)|40 Human Years|166.7 Mercury Years|
 |Should Return age in Venus Years(.62 years = 1 EY)|40 Human Years|64.5 Venus Years old|
-|Should Return age in Mars Years(1.88 years = 1 EY)|40 Human Years|21.2 Mars Years old|
+|Should Return age in Mars Years(1.88 years = 1 EY)|40 Human Years|21.3 Mars Years old|
 |Should Return age in Jupiter Years(11.86 years = 1 EY)|40 Human Years|3.4 Jupiter Years old|
 |Should Return age in Saturn Years (29 years = 1 EY)|40 Human Years|1.3 Saturn Years old|
 |Should Return age in Uranus Years (84 Years = 1 EY)|40 Human Years|.47 Uranus Years old|

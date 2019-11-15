@@ -1,7 +1,7 @@
-import { mercuryAge, venusAge } from './../src/solarage.js';
+import { mercuryAge, venusAge, marsAge } from './../src/solarage.js';
 
 
-describe('Mercury Age', () => {
+describe('Solar Age planet testing', () => {
 
   test('should correctly return the inputted Earth age in Mercury Age', () => {
     var userMercuryAge = mercuryAge(40);
@@ -10,6 +10,10 @@ describe('Mercury Age', () => {
   test('should correctly return the inputted Earth age in Venus Age', () => {
     var userVenusAge = venusAge(40);
     expect(userVenusAge).toEqual(64.5);
+  });
+  test('should correctly return the inputted Earth age in Mars Age', () => {
+    var userMarsAge = marsAge(30);
+    expect(userMarsAge).toEqual(21.3);
   });
 
 
