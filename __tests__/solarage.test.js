@@ -12,8 +12,12 @@ describe('Solar Age planet testing', () => {
     expect(userVenusAge).toEqual(64.5);
   });
   test('should correctly return the inputted Earth age in Mars Age', () => {
-    var userMarsAge = marsAge(30);
+    var userMarsAge = marsAge(40);
     expect(userMarsAge).toEqual(21.3);
+  });
+  test('should correctly return the inputted Earth age in Jupiter Age', () => {
+    var userJupiterAge = jupiterAge(40);
+    expect(userJupiterAge).toEqual(3.4);
   });
 
 
