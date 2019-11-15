@@ -16,7 +16,7 @@ describe('Solar Age planet testing', () => {
     expect(userMarsAge).toEqual(21.3);
   });
   test('should correctly return the inputted Earth age in Jupiter Age', () => {
-    var userJupiterAge = jupiterAge(30);
+    var userJupiterAge = jupiterAge(40);
     expect(userJupiterAge).toEqual(3.4);
   });
 
