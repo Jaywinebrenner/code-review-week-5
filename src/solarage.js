@@ -34,10 +34,7 @@ export function neptuneAge(earthAge){
   return Math.round(preRound * 100) / 100;
 }
 
-// export function mercuryExpectancy(lifeExpectancy, earthAge){
-//   let earthYearsLeft = (lifeExpectancy - earthAge) / .24;
-//   return Math.round(earthYearsLeft * 10) / 10;
-// }
+
 
 export class PlanetExpectancy {
   constructor(lifeExpectancy, earthAge) {
@@ -66,6 +63,10 @@ export class PlanetExpectancy {
   }
   calculateExpectancyUranus(){
     let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / 84;
+    return Math.round(earthYearsLeft * 100) / 100;
+  }
+  calculateExpectancyNeptune(){
+    let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / 165;
     return Math.round(earthYearsLeft * 100) / 100;
   }
 

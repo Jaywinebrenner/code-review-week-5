@@ -35,7 +35,7 @@ A web application that will calculate how old one is on various planets in our s
 |Should determine how many Jupiter Years one has to live--(Life expectancy-Earth Years/11.86-- |Expectancy = 74 Earth Age = 20 Life | 4.6 Jupiter years left to live |
 |Should determine how many Saturn Years one has to live--(Life expectancy-Earth Years/29-- |Expectancy = 74 Earth Age = 20 Life | 1.86 Saturn years left to live |
 |Should determine how many Uranus Years one has to live--(Life expectancy-Earth Years/84-- |Expectancy = 74 Earth Age = 20 Life | .64 Uranus years left to live |
-|Should determine how many Neptune Years one has to live--(Life expectancy-Earth Years/165-- |Expectancy = 74 Earth Age = 20 Life | .32 Neptune years left to live |
+|Should determine how many Neptune Years one has to live--(Life expectancy-Earth Years/165-- |Expectancy = 74 Earth Age = 20 Life | .33 Neptune years left to live |
 |---|---|---|
 
 ### Technologies Used
