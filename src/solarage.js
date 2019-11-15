@@ -20,7 +20,10 @@ export function jupiterAge(earthAge){
   return Math.round(preRound * 10) / 10;
 }
 
-
+export function saturnAge(earthAge){
+  let preRound = earthAge / 29 ;
+  return Math.round(preRound * 10) / 10;
+}
 
 
 
