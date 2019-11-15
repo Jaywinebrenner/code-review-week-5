@@ -22,14 +22,14 @@ The description goes here.
 |Expectation|Input|Output|
 |---|---|---|
 |Should Return age in Mercury Years(.24 years = 1 EY)|40 Human Years|166 Mercury Years|
-|Should Return age in Venus Years(.62 years = 1 EY)|40 Human Years|64 Venus Years Old|
-|Should Return age in Mars Years(1.88 years = 1 EY)|40 Human Years|166 Mercury Years|
-|Should Return age in Jupiter Years(11.86 years = 1 EY)|40 Human Years|166 Mercury Years|
-|Should Return age in SaturnYears (29 years = 1 EY)|40 Human Years|166 Mercury Years|
-|Should Return age in Uranus Years (84 Years = 1 EY)|40 Human Years|166 Mercury Years|
-|Should Return age in Neptune (165 Years = 1 EY)|40 Human Years|166 Mercury Years|
-|Should Return age in Pluto Years(248 Years = 1 EY)|40 Human Years|166 Mercury Years|
-|---|---|---|
+|Should Return age in Venus Years(.62 years = 1 EY)|40 Human Years|64 Venus Years old|
+|Should Return age in Mars Years(1.88 years = 1 EY)|40 Human Years|75 Mars Years old|
+|Should Return age in Jupiter Years(11.86 years = 1 EY)|40 Human Years|474 Jupiter Years old|
+|Should Return age in Saturn Years (29 years = 1 EY)|40 Human Years|1160 Saturn Years old|
+|Should Return age in Uranus Years (84 Years = 1 EY)|40 Human Years|3440 Uranus Years old|
+|Should Return age in Neptune (165 Years = 1 EY)|40 Human Years|6600 Neptune years old|
+|Should Return age in Pluto Years(248 Years = 1 EY)|40 Human Years|9920 Pluto Years|
+|Should determines how many Mercury Years one has to live(80-EY)|---|
 |---|---|---|
 
 ### Technologies Used
