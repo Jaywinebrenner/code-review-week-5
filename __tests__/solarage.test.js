@@ -8,7 +8,7 @@ describe('Mercury Age', () => {
     expect(userMercuryAge).toEqual(166.7);
   });
   test('should correctly return the inputted Earth age in Venus Age', () => {
-    var userVenusAge = venusAge(30);
+    var userVenusAge = venusAge(40);
     expect(userVenusAge).toEqual(64.5);
   });
 
