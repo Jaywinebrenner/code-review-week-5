@@ -5,6 +5,11 @@ export function mercuryAge(earthAge){
   return Math.round(preRound * 10) / 10;
 }
 
+export function venusAge(earthAge){
+  let preRound = earthAge / .62;
+  return Math.round(preRound * 10) / 10;
+}
+
 
 
 
