@@ -1,4 +1,4 @@
-// Hi! I made a branch to make this functional and to change the normal function of the Solar age input into a class. I did the class for the life expectancy in the original upload on Friday, but wanted to swith because I got paranoid it would refelct negatively, even though I did have a fully tested class / prototype in the original upload. ANYHOW, I did a lot of changes in the branch. Just a heads up!
+// Hi! I worked on a branch to plumb the UI and make the site functional and merged it into master. Also, on my initial upload at 5, I had a class / contstructor for the life expectancy functionality and a normal functions for the solar age functionality. I got paranoid the normal functions wouldn't have been kosher as the ciriculem did state to use classes. I did use classes, just not ALL class. Anyhow, just a heads up. 
 
 
 import $ from 'jquery';
