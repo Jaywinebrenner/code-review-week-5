@@ -1,35 +1,35 @@
-export function mercuryAge(earthAge){
-  let preRound = earthAge / .24;
-  return Math.round(preRound * 10) / 10;
-}
 
-export function venusAge(earthAge){
-  let preRound = earthAge / .62;
-  return Math.round(preRound * 10) / 10;
-}
-
-export function marsAge(earthAge){
-  let preRound = earthAge / 1.88 ;
-  return Math.round(preRound * 10) / 10;
-}
-
-export function jupiterAge(earthAge){
-  let preRound = earthAge / 11.86 ;
-  return Math.round(preRound * 10) / 10;
-}
-
-export function saturnAge(earthAge){
-  let preRound = earthAge / 29 ;
-  return Math.round(preRound * 10) / 10;
-}
-
-export function uranusAge(earthAge){
-  let preRound = earthAge / 84 ;
-  return Math.round(preRound * 100) / 100;
-}
-export function neptuneAge(earthAge){
-  let preRound = earthAge / 165 ;
-  return Math.round(preRound * 100) / 100;
+export class PlanetAgeCalulator {
+  constructor(earthAge) {
+    this.earthAge = earthAge;
+  }
+  MercuryAge(earthAge){
+    let preRound = this.earthAge / .24;
+    return Math.round(preRound * 10) / 10;
+  }
+  VenusAge(earthAge){
+    let preRound = this.earthAge / .62;
+    return Math.round(preRound * 10) / 10;
+  }
+  MarsAge(earthAge){
+    let preRound = this.earthAge / 1.88 ;
+    return Math.round(preRound * 10) / 10;
+  }
+  JupiterAge(earthAge){
+    let preRound = this.earthAge / 11.86 ;
+    return Math.round(preRound * 10) / 10;
+  }
+  SaturnAge(earthAge){
+    let preRound = this.earthAge / 29 ;
+    return Math.round(preRound * 10) / 10;
+  } UranusAge(earthAge){
+    let preRound = this.earthAge / 84 ;
+    return Math.round(preRound * 100) / 100;
+  }
+  NeptuneAge(earthAge){
+    let preRound = this.earthAge / 165 ;
+    return Math.round(preRound * 100) / 100;
+  }
 }
 
 

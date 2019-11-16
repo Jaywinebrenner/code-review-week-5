@@ -1,4 +1,4 @@
-import { mercuryExpectancy, mercuryAge, venusAge, marsAge, jupiterAge, saturnAge, uranusAge, neptuneAge, PlanetExpectancy } from './../src/solarage.js';
+import { PlanteAgeCalculator, PlanetExpectancy } from './../src/solarage.js';
 
 describe('Solar Age planet testing', () => {
 
