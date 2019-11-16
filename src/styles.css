@@ -3,12 +3,11 @@ body{
     background-size: 100%;
 }
 
-
 #mercurydiv{
-  background: url("https://solarsystem.nasa.gov/system/stellar_items/image_files/2_feature_1600x900_mercury.jpg") no-repeat;
     background-size: 100%;
 }
 h1{
+  font-family: 'Monoton', cursive;
   text-align: center;
   font-size: 5rem;
   color: white;
@@ -16,4 +15,9 @@ h1{
 h2, p{
   color: white;
   text-align: center;
+}
+
+.calculatorDiv{
+  margin-top: 50px;
+
 }

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
   <meta charset="utf-8">
-  <title></title>
+  <title>Space Years</title>
 </head>
 <body>
   <div id="header">
@@ -11,22 +12,57 @@
   </div>
   <div class="container">
     <div class="row">
-      <div id="mercurydiv" class="col-4">
-        <h2>How old are you in Mercury Years?</h2>
-        <input type="text" placeholder="Enter your Earth Age">
-        <button type="submit" name="button">Calculate!</button>
-        <p>Your Mercury age is: <span></span></p>
+      <div id="mercurydiv" class="col-4 calculatorDiv">
+        <form id="mercuryForm" action="index.html" method="post">
+          <h2>How old are you in Mercury Years?</h2>
+          <input id="mercuryInput" type="text" placeholder="Enter your Earth Age">
+          <button type="submit" name="button">Calculate!</button>
+        </form>
+        <p>Your Mercury age is: <span id="mercurySpan"></span></p>
       </div>
-
-      <div id="venusdiv" class="col-4">
+      <div id="venusdiv" class="col-4 calculatorDiv">
         <h2>How old are you in Venus Years?</h2>
-        <input type="text" placeholder="Enter your Earth Age">
-        <button type="submit" name="button">Calculate!</button>
+        <form id="venusForm" action="index.html" method="post">
+          <input id="venusInput" type="text" placeholder="Enter your Earth Age">
+          <button type="submit" name="button">Calculate!</button>
+        </form>
         <p>Your Venus age is: <span></span></p>
       </div>
-
+      <div id="marsdiv" class="col-4 calculatorDiv">
+        <h2>How old are you in Martian Years?</h2>
+        <form class="marsForm" action="index.html" method="post">
+          <input id="marsInput" type="text" placeholder="Enter your Earth Age">
+          <button type="submit" name="button">Calculate!</button>
+        </form>
+        <p>Your Mars age is: <span></span></p>
+      </div>
     </div>
-
+    <div class="row">
+      <div id="jupiterdiv" class="col-4 calculatorDiv">
+        <h2>How old are you in Jupiter Years?</h2>
+        <form id="jupiterForm" action="index.html" method="post">
+          <input id="JupiterInput" type="text" placeholder="Enter your Earth Age">
+          <button type="submit" name="button">Calculate!</button>
+        </form>
+          <p>Your Jupiter age is: <span id="jupiterSpan"></span></p>
+      </div>
+      <div id="saturndiv" class="col-4 calculatorDiv">
+        <h2>How old are you in Saturn Years?</h2>
+        <form id="saturnForm" action="index.html" method="post">
+          <input id="saturnInput" type="text" placeholder="Enter your Earth Age">
+          <button type="submit" name="button">Calculate!</button>
+        </form>
+        <p>Your Saturn age is: <span></span></p>
+      </div>
+      <div id="Uranusdiv" class="col-4 calculatorDiv">
+        <h2>How old are you in Uranus Years?</h2>
+        <form class="UranusForm" action="index.html" method="post">
+          <input id="UranusInput" type="text" placeholder="Enter your Earth Age">
+          <button type="submit" name="button">Calculate!</button>
+        </form>
+        <p>Your Uranus age is: <span></span></p>
+      </div>
+    </div>
   </div>
 
 </body>
