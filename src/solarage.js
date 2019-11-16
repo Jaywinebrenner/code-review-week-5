@@ -1,38 +1,52 @@
+// export class PlanetExpectancy {
+//   constructor(lifeExpectancy, earthAge) {
+//     this.lifeExpectancy = lifeExpectancy;
+//     this.earthAge = earthAge;
+//   }
+//   AllLifeExpectancyMercury(){
+//     if (this.lifeExpectancy < this.earthAge) {
+//       let yearsPastExpcectancyMercury = (this.earthAge - this.lifeExpectancy) / .24;
+//       return "You have lived " + Math.round(yearsPastExpcectancyMercury * 10) / 10 + " Mercury years past your life expectancy. Good luck!";
+//     } else {
+//       let earthYearsLeft = (this.lifeExpectancy - this.earthAge) / .24;
+//       return "You have " + Math.round(earthYearsLeft * 10) / 10 + " Mercury years left to live. Have fun!";
+//     }
+//   }
 
-export class PlanetAgeCalulator {
+
+
+export class PlanetAgeCalculator {
   constructor(earthAge) {
     this.earthAge = earthAge;
   }
-  MercuryAge(earthAge){
+  MercuryAge(){
     let preRound = this.earthAge / .24;
     return Math.round(preRound * 10) / 10;
   }
-  VenusAge(earthAge){
+  VenusAge(){
     let preRound = this.earthAge / .62;
     return Math.round(preRound * 10) / 10;
   }
-  MarsAge(earthAge){
+  MarsAge(){
     let preRound = this.earthAge / 1.88 ;
     return Math.round(preRound * 10) / 10;
   }
-  JupiterAge(earthAge){
+  JupiterAge(){
     let preRound = this.earthAge / 11.86 ;
     return Math.round(preRound * 10) / 10;
   }
-  SaturnAge(earthAge){
+  SaturnAge(){
     let preRound = this.earthAge / 29 ;
     return Math.round(preRound * 10) / 10;
-  } UranusAge(earthAge){
+  } UranusAge(){
     let preRound = this.earthAge / 84 ;
     return Math.round(preRound * 100) / 100;
   }
-  NeptuneAge(earthAge){
+  NeptuneAge(){
     let preRound = this.earthAge / 165 ;
     return Math.round(preRound * 100) / 100;
   }
 }
-
-
 
 export class PlanetExpectancy {
   constructor(lifeExpectancy, earthAge) {

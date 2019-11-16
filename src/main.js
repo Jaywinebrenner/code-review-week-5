@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import { mercuryAge, venusAge, marsAge } from './../src/solarage.js';
+import { PlanetAgeCalculator, PlanetExpectancy } from './../src/solarage.js';
 
 $(document).ready(function(){
   $("#mercuryForm").submit(function(event){

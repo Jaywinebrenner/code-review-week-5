@@ -1,34 +1,35 @@
-import { PlanteAgeCalculator, PlanetExpectancy } from './../src/solarage.js';
+import { PlanetAgeCalculator, PlanetExpectancy } from './../src/solarage.js';
+
 
 describe('Solar Age planet testing', () => {
 
   test('should correctly return the inputted Earth age in Mercury Age', () => {
-    let userMercuryAge = mercuryAge(40);
-    expect(userMercuryAge).toEqual(166.7);
+    let userMercuryAge = new PlanetAgeCalculator(40);
+    expect(userMercuryAge.MercuryAge()).toEqual(166.7);
   });
   test('should correctly return the inputted Earth age in Venus Age', () => {
-    let userVenusAge = venusAge(40);
-    expect(userVenusAge).toEqual(64.5);
+    let userVenusAge = new PlanetAgeCalculator(40);
+    expect(userVenusAge.VenusAge()).toEqual(64.5);
   });
   test('should correctly return the inputted Earth age in Mars Age', () => {
-    let userMarsAge = marsAge(40);
-    expect(userMarsAge).toEqual(21.3);
+    let userMarsAge = new PlanetAgeCalculator(40);
+    expect(userMarsAge.MarsAge()).toEqual(21.3);
   });
   test('should correctly return the inputted Earth age in Jupiter Age', () => {
-     let userJupiterAge = jupiterAge(40);
-    expect(userJupiterAge).toEqual(3.4);
+     let userJupiterAge = new PlanetAgeCalculator(40);
+    expect(userJupiterAge.JupiterAge()).toEqual(3.4);
   });
   test('should correctly return the inputted Earth age in Saturn Age', () => {
-    let userSaturnAge = saturnAge(40);
-    expect(userSaturnAge).toEqual(1.4);
+    let userSaturnAge = new PlanetAgeCalculator(40);
+    expect(userSaturnAge.SaturnAge()).toEqual(1.4);
   });
   test('should correctly return the inputted Earth age in Uranus Age', () => {
-    let userUranusAge = uranusAge(40);
-    expect(userUranusAge).toEqual(.48);
+    let userUranusAge = new PlanetAgeCalculator(40);
+    expect(userUranusAge.UranusAge()).toEqual(.48);
   });
   test('should correctly return the inputted Earth age in Neptune Age', () => {
-    let userNeptuneAge = neptuneAge(40);
-    expect(userNeptuneAge).toEqual(.24);
+    let userNeptuneAge = new PlanetAgeCalculator(40);
+    expect(userNeptuneAge.NeptuneAge()).toEqual(.24);
   });
 });
 
