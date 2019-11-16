@@ -11,19 +11,19 @@ export class PlanetAgeCalculator {
     return Math.round(preRound * 10) / 10;
   }
   marsAge(){
-    let preRound = this.earthAge / 1.88 ;
+    let preRound = this.earthAge / 1.88;
     return Math.round(preRound * 10) / 10;
   }
   jupiterAge(){
-    let preRound = this.earthAge / 11.86 ;
+    let preRound = this.earthAge / 11.86;
     return Math.round(preRound * 10) / 10;
   }
   saturnAge(){
-    let preRound = this.earthAge / 29 ;
+    let preRound = this.earthAge / 29;
     return Math.round(preRound * 10) / 10;
   }
   uranusAge(){
-    let preRound = this.earthAge / 84 ;
+    let preRound = this.earthAge / 84;
     return Math.round(preRound * 100) / 100;
   }
   neptuneAge(){
