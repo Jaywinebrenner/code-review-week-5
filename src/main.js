@@ -2,15 +2,22 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import { mercuryExpectancy, mercuryAge, venusAge, marsAge, jupiterAge, saturnAge, uranusAge, neptuneAge, PlanetExpectancy } from './../src/solarage.js';
+import { mercuryAge, venusAge } from './../src/solarage.js';
 
 $(document).ready(function(){
-  $("#marsForm").submit(function(event){
+  $("#mercuryForm").submit(function(event){
     event.preventDefault();
-    let earthAgeInput = $("mercuryInput").val();
-    let mercuryAgeOutput = mercuryAge(earthAgeInput);
-    $("#mercurySpan").text(mercuryAgeOutput);
+    let earthAgeInputForMercury = $("#mercuryInput").val();
+    let mercuryAgeOutput = mercuryAge(earthAgeInputForMercury);
+    $("#mercurySpan").html(" " + mercuryAgeOutput + " years");
+  });
+});
 
-
+$(document).ready(function(){
+  $("#venusForm").submit(function(event){
+    event.preventDefault();
+    let earthAgeInputForVenus = $("#venusInput").val();
+    let venusAgeOutput = venusAge(earthAgeInput);
+    $("#venusSpan").html(" " + venusAgeOutput + " years");
   });
 });
